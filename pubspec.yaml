@@ -1,0 +1,11 @@
+name: utf8decoder_hw
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  rohd: ^0.3.2
+
+dev_dependencies:
+  test: ^1.21.5
+  very_good_analysis: ^3.0.1
