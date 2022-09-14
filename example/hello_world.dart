@@ -1,8 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:rohd/rohd.dart';
-import 'package:utf8decoder_hw/src/explicit_logic.dart';
-import 'package:utf8decoder_hw/src/utf8decoder.dart';
+import 'package:utf8decoder_hw/utf8decoder_hw.dart';
 
 Future<void> main() async {
   // Preparing inputs and outputs.
