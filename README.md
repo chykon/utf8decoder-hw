@@ -20,6 +20,15 @@ An example of usage is available in the `example` directory.
 
 Tests are available in the `test` directory.
 
+Before publishing a package:
+
+* Add version info in `CHANGELOG.md`
+* Do `dart analyze`
+* Do `dart format .`
+* Do `dart pub outdated`
+* Do `dart pub publish --dry-run`
+* Use [pana](https://pub.dev/help/scoring#calculating-pub-points-prior-to-publishing)
+
 ## Also were used
 
 For tests were used:

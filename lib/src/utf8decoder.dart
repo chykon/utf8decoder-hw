@@ -10,9 +10,9 @@ class UTF8Decoder extends Module {
     InputLogic1 enable,
     InputLogic8 byte,
     OutputLogic3 status,
-    OutputLogic21 codepoint,
-    {super.name = 'utf8decoder',}
-  ) {
+    OutputLogic21 codepoint, {
+    super.name = 'utf8decoder',
+  }) {
     clock.logic = addInput('clock', clock.logic);
     reset.logic = addInput('reset', reset.logic);
     enable.logic = addInput('enable', enable.logic);
@@ -208,12 +208,16 @@ class UTF8Decoder extends Module {
 
   /// Status after reset.
   static const statusInitial = 0;
+
   /// The code point is not ready.
   static const statusInprocess = 1;
+
   /// The code point is ready.
   static const statusSuccess = 2;
+
   /// Bad byte received.
   static const statusFailure = 3;
+
   /// Bad byte received. It is necessary to repeat the transmission
   /// of the last byte.
   static const statusFailureRepeat = 4;
