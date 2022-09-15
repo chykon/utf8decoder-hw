@@ -1,4 +1,8 @@
 name: utf8decoder_hw
+version: 0.1.0-prototype.1
+description: A hardware UTF-8 decoder written in Dart using the ROHD framework.
+repository: https://github.com/chykon/utf8decoder-hw
+issue_tracker: https://github.com/chykon/utf8decoder-hw/issues
 
 environment:
   sdk: '>=2.18.0 <3.0.0'
