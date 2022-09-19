@@ -33,7 +33,7 @@ Future<void> main() async {
     expect(codepoint.logic.value.toInt(), 0);
   });
 
-  test('"hello_world.dart" example should work', () async {
+  test('Example should work', () async {
     const string = 'Hello, Мир 👋';
     final runes = string.runes;
     final splittedUtf8Bytes = <List<int>>[];
